@@ -185,6 +185,19 @@ cmake --build build --config Release
 build/examples/test_suite/Release/test_suite.exe
 ```
 
+### Example 14 — Script Binding
+
+This example demonstrates automatic C++ → Lua / JavaScript binding via xreflect:
+
+```bash
+cmake --build build --config Release --target scriptbinding
+build/examples/14_script_binding/Release/scriptbinding.exe
+```
+
+Input scripts:
+- [`test.lua`](examples/14_script_binding/test.lua) — Lua bindings
+- [`test.js`](examples/14_script_binding/test.js) — JavaScript bindings
+
 ## API Reference
 
 ### Core Types
@@ -458,6 +471,19 @@ std::string、std::pair、std::array、std::list、std::shared_ptr 等——全�
 cmake --build build --config Release
 build/examples/test_suite/Release/test_suite.exe
 ```
+
+### 示例 14 — 脚本绑定
+
+本示例演示通过 xreflect 自动将 C++ 类绑定到 Lua 和 JavaScript：
+
+```bash
+cmake --build build --config Release --target scriptbinding
+build/examples/14_script_binding/Release/scriptbinding.exe
+```
+
+输入脚本：
+- [`test.lua`](examples/14_script_binding/test.lua) — Lua 绑定脚本
+- [`test.js`](examples/14_script_binding/test.js) — JavaScript 绑定脚本
 
 ## API 参考
 
