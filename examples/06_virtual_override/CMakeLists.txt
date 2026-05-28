@@ -1,0 +1,3 @@
+add_executable(06_virtual_override main.cpp)
+target_link_libraries(06_virtual_override xreflect)
+set_target_properties(06_virtual_override PROPERTIES FOLDER "examples")

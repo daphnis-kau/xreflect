@@ -1,0 +1,3 @@
+add_executable(02_fields_and_methods main.cpp)
+target_link_libraries(02_fields_and_methods xreflect)
+set_target_properties(02_fields_and_methods PROPERTIES FOLDER "examples")
